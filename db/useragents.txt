@@ -1,0 +1,1564 @@
+192.comAgent
+200PleaseBot/1.0
+2Bone LinkChecker
+360Spider
+3DS Browser
+4seohuntBot
+50.nu/0.01
+80legs/0.71
+80legs/0.83
+80legs/0.83 b
+A1 Sitemap Generator
+A6-Indexer/1.0
+AB (Apache Bench)
+abby/1.0
+Abilon
+Abolimba
+Aboundexbot/0.2
+Aboundexbot/0.3
+AboutUsBot
+AboutUsBot/0.9
+AboutUsBot Johnny5/2.0
+Abrave Spider/4-1
+Abrave Spider/4-2
+ABrowse
+Accelobot
+Accoona-AI-Agent/1.1.1
+Accoona-AI-Agent/1.1.2
+Acoo Browser
+AcoonBot/4.10.5
+AcoonBot/4.10.6
+AcoonBot/4.10.7
+AcoonBot/4.10.8
+AcoonBot/4.11.0
+AcoonBot/4.11.1
+AcoonBot/4.12.1
+Acoon-Robot 4.0.0RC2
+Acoon-Robot 4.0.1
+Acoon-Robot 4.0.2
+Acoon-Robot 4.0.2.17
+Acoon v4.1.0
+Acoon v4.10.1
+Acoon v4.10.3
+Acoon v4.10.4
+Acoon v4.10.5
+Acoon v4.9.5
+Acorn/Nutch-0.9
+ActiveXperts Network Monitor
+AddThis.com robot
+adidxbot/1.1
+Adobe AIR runtime
+adressendeutschland.de
+AdsBot-Google
+AdsBot-Google b
+AdsBot-Google-Mobile
+AhrefsBot/1.0
+AhrefsBot/2.0
+AhrefsBot/3.0
+AhrefsBot/3.1
+AhrefsBot/4.0
+AhrefsBot/5.0
+aiHitBot/1.0
+aiHitBot/1.0-DS
+aiHitBot/1.1
+aiHitBot/2.7
+aiHitBot/2.8
+aiHitBot-BP/1.1
+aiHitBot-DM/2.0.2
+AirMail
+AIX
+Akregator
+akula/12.0rc-2
+akula/k311
+alexa site audit/1.0
+Alienforce
+Almaden
+Almaden bc12
+Almaden bc14
+Almaden bc22
+Almaden bc5
+Almaden bc6
+Almaden fc13
+Almaden hc4
+Amagit.COM
+Amaya
+Amfibibot/0.07
+amibot
+Amiga Aweb
+Amiga OS
+Amiga Voyager
+AMZNKAssocBot/4.0
+Android
+Android 1.0
+Android 1.5 Cupcake
+Android 1.6 Donut
+Android 2.0/1 Eclair
+Android 2.2.x Froyo
+Android 2.3.x Gingerbread
+Android 3.x Honeycomb
+Android 4.0.x Ice Cream Sandwich
+Android 4.1.x Jelly Bean
+Android 4.2 Jelly Bean
+Android 4.3 Jelly Bean
+Android 4.4 KitKat
+Android browser
+Anemone
+Anonymouse.org
+AntBot/1.0
+anw HTMLChecker
+anw LoadControl
+AOL Explorer
+Apache-HttpClient
+Apache internal dummy connection
+Apache Synapse
+Apercite
+AportWorm/3.2
+appie 1.1
+Apple Mail
+Apple-PubSub
+AraBot 1.0
+arachnode.net/1.2
+arachnode.net/2.5
+archive.org_bot
+Arora
+AROS
+ASAHA Search Engine Turkey V.001
+Ask Jeeves/Teoma
+Ask Jeeves/Teoma - b
+Ask Jeeves/Teoma - c
+Ask Jeeves/Teoma - d
+Atomic Email Hunter
+Atomic Web Browser
+Automattic Analytics Crawler/0.1
+Avant Browser
+AvantGo
+Awasu
+Axel
+BabalooSpider/1.3
+BacklinkCrawler
+BacklinkCrawler V
+Bada
+Bad Neighborhood Header Detector
+Bad-Neighborhood Link Analyzer
+Baidu Browser
+Baiduspider
+Baiduspider/2.0
+Baiduspider-image
+Baiduspider japan
+Banshee
+Barca
+baypup/1.1
+baypup/colbert
+BDFetch
+Beamrise
+BecomeBot/2.3
+BecomeBot/2.3 b
+BecomeBot/3.0
+BecomeBot/3.0 b
+BegunAdvertising/3.0
+Beonex
+BeOS
+Bigsearch.ca/Nutch-0.9-dev
+Bigsearch.ca/Nutch-1.0-dev
+bingbot/2.0
+bingbot SitemapProbe
+BinGet
+BingPreview/1.0b
+bitlybot
+biwec
+bixo
+bixocrawler
+bixolabs/1.0
+BlackBerry Browser
+BlackBerry OS
+BlackBerry Tablet OS 1
+BlackBerry Tablet OS 2
+Blackbird
+BlackHawk
+Blaiz-Bee/2.00.5622
+Blaiz-Bee/2.00.5655
+Blaiz-Bee/2.00.6082
+Blaiz-Bee/2.00.8315
+Blazer
+Blekkobot
+BLEXBot
+BLEXBot/1.0
+BlinkaCrawler/1.0
+BlogBridge
+Bloggsi/1.0
+Bloglines
+BlogPulse
+BlogPulseLive
+BlueCrab
+bl.uk_lddc_bot/3.1.1
+bnf.fr_bot
+boitho.com-dc/0.79
+boitho.com-dc/0.82
+boitho.com-dc/0.83
+boitho.com-dc/0.85
+boitho.com-dc/0.86
+Bolt
+Bookdog
+BookmarkTracker
+botmobi
+BotOnParade
+bot-pge.chlooe.com/1.0.0
+bot.wsowner.com/1.0.0
+Boxxe
+BrownRecluse
+BrowserEmulator
+Browsershots
+BrowseX
+Browzar
+btbot/0.4
+BUbiNG
+Bunjalloo
+Busiversebot/v1.0
+Butterfly/1.0
+Butterfly/1.0 a
+BuzzRankingBot/1.0
+Camino
+CamontSpider/1.0
+CareerBot/1.1
+Castabot/0.1
+CatchBot/1.0
+CatchBot/2.0
+CatchBot/3.0
+CazoodleBot/0.0.2
+CazoodleBot-0.1
+CazoodleBot a
+CazoodleBot b
+CazoodleBot c
+CazoodleBot d
+CCBot/1.0
+CCBot/2.0
+CCResearchBot/1.0
+ccubee/10.0
+ccubee/2008
+ccubee/3.2
+ccubee/3.3
+ccubee/3.5
+ccubee/3.7
+ccubee/4.0
+ccubee/9.0
+CFNetwork
+ChangeDetection
+changedetection/1.0
+Charlotte/1.1
+Charon
+Checkbot
+Cheshire
+Chilkat HTTP .NET
+Chrome
+Chrome Mobile
+Chrome OS
+Chromium
+CirrusExplorer/1.1
+City4you/1.3 Cesky
+cityreview
+CJB.NET Proxy
+Claws Mail GtkHtml2 plugin
+CligooRobot/2.0
+Cliqz Bot
+Cliqzbot/0.1
+CloudServerMarketSpider/1.0
+Coast
+coccoc
+coccoc/1.0
+Columbus
+Combine/3
+CometBird
+Comodo Dragon
+CompSpyBot/1.0
+Conkeror
+ConveraCrawler 0.9d
+ConveraCrawler 0.9e
+ConveraMultiMediaCrawler/0.1
+CoolNovo
+copyright sheriff
+CorePlayer
+CorpusCrawler 2.0.0
+CorpusCrawler 2.0.10
+CorpusCrawler 2.0.12
+CorpusCrawler 2.0.13
+CorpusCrawler 2.0.14
+CorpusCrawler 2.0.15
+CorpusCrawler 2.0.17
+CorpusCrawler 2.0.19
+CorpusCrawler 2.0.20
+CorpusCrawler 2.0.21
+CorpusCrawler 2.0.22
+CorpusCrawler 2.0.24
+CorpusCrawler 2.0.25
+CorpusCrawler 2.0.8
+CorpusCrawler 2.0.9
+Covario-IDS/1.0
+CovarioIDS/1.1
+CPG Dragonfly RSS Module
+Crawler4j
+Crazy Browser
+Crowsnest/0.5
+csci_b659/0.13
+CSE HTML Validator
+Curious George
+cURL
+Cyberduck
+Cynthia
+D+
+Danger Hiptop
+DataFountains at Dmoz
+DataFountains at Dmoz b
+DataparkSearch/4.40
+DAUMOA/1.0.0
+DAUMOA/1.0.1
+DAUMOA/1.0.1 b
+Daumoa/2.0
+Daumoa/2.0 b
+Daumoa/3.0
+DBLBot/1.0
+DCPbot/1.0
+DCPbot/1.1
+DealGates Bot/1.1
+Deepnet Explorer
+del.icio.us-thumbnails/1.0
+Dell Web Monitor
+Demeter
+DepSpid
+DepSpid/5.07
+DepSpid/5.10
+DepSpid/5.24
+DepSpid/5.25
+DepSpid/5.26
+DeskBrowse
+Dillo
+discobot/1.0
+discobot/1.1
+discobot/2.0
+discoverybot/2.0
+DKIMRepBot/1.0
+Dlvr.it/1.0
+DNS-Digger-Explorer/1.0
+DocZilla
+Dolphin
+DomainDB/1.1
+Dooble
+Doris
+DotBot/1.1
+dotSemantic/1.0
+Dot TK - spider 3.0
+DownloadStudio
+DragonFly BSD
+DripfeedBot/2.0
+drupact/0.7
+DuckDuckBot/1.0
+DuckDuckPreview/1.0
+EasyBib AutoCite
+eCairn-Grabber/1.0
+Edbrowse
+EDI/1.6.5
+EDI/1.6.6
+EDI/1.6.6 b
+EdisterBot
+egothor/11.0d
+egothor/11.0d b
+egothor/12.0rc-2
+egothor/8.0f
+egothor/8.0g
+ejupiter.com
+ejupiter.com 43
+Element Browser
+Elinks
+emefgebot/beta
+EnaBot/1.1
+EnaBot/1.2
+Enigma browser
+Enterprise_Search/1.00.143
+envolk/1.7
+Epic
+Epiphany
+e-SocietyRobot
+Espial TV Browser
+Esribot/1.0
+Eudora
+EuripBot/1.1
+Eurobot/1.1
+Eurobot/1.2
+EventGuruBot/1.0
+EventMachine
+Evolution/Camel.Stream
+EvriNid/1.0.0
+Exabot/3.0
+Exabot/3.0/BiggerBetter
+Exabot-Images/3.0
+Exabot-Thumbnails
+ExactSEEK
+ExB Language Crawler 2.1.1
+ExB Language Crawler 2.1.2
+ExB Language Crawler 2.1.5
+Ezooms/1.0
+FacebookExternalHit/1.0
+FacebookExternalHit/1.1
+facebookplatform/1.0
+Factbot 1.09
+FairShare
+Falconsbot
+fastbot crawler beta 2.0
+fastbot.de crawler beta 2.0
+FAST Enterprise Crawler/6
+FAST Enterprise Crawler/6.4
+FAST Enterprise Crawler 6 at virk.dk
+Fastladder FeedFetcher
+FAST MetaWeb Crawler
+FauBot/0.1
+favorstarbot/1.0
+FeedCatBot/3.0
+FeedDemon
+Feedfetcher-Google
+Feed::Find
+FeedFinder-2.0
+FeedParser
+FeedValidator
+Feed Viewer
+Fetch/2.0a
+Findexa Crawler
+findlinks/1.1.3-beta9
+findlinks/1.1.4-beta7
+findlinks/1.1.6-beta1
+findlinks/1.1.6-beta1 Yacy
+findlinks/1.1.6-beta2
+findlinks/1.1.6-beta3
+findlinks/1.1.6-beta4
+findlinks/1.1.6-beta5
+findlinks/1.1.6-beta6
+findlinks/2.0
+findlinks/2.0.1
+findlinks/2.0.2
+findlinks/2.0.4
+findlinks/2.0.5
+findlinks/2.0.9
+findlinks/2.1
+findlinks/2.1.3
+findlinks/2.1.5
+findlinks/2.2
+findlinks/2.5
+findlinks/2.6
+Firebird (old name for Firefox)
+Firefox
+Firefox (BonEcho)
+Firefox (GranParadiso)
+Firefox (Lorentz)
+Firefox (Minefield)
+Firefox (Namoroka)
+Firefox OS
+Firefox (Shiretoko)
+Fireweb Navigator
+firmilybot/0.3
+flatlandbot
+flatlandbot b
+flatlandbot/baypup
+flatlandbot c
+flatlandbot d
+FlightDeckReportsBot/2.0
+FlipboardProxy/0.0.5
+Flock
+Flocke bot
+Fluid
+FlyCast
+FollowSite Bot
+foobar2000
+Fooooo_Web_Video_Crawl
+Forschungsportal/0.8-dev
+Francis/2.0
+FreeBSD
+Funambol Mozilla Sync Client
+Funambol Outlook Sync Client
+FunnelBack
+FurlBot/Furl Search 2.0
+FyberSpider/1.2
+FyberSpider/1.3
+g2crawler
+Gaisbot/3.0
+Gaisbot/3.0 - 06
+Galeon
+Gallent Search Spider v1.4 Robot 3
+Game console
+GarlikCrawler/1.1
+GarlikCrawler/1.1 b
+GcMail
+GeliyooBot/1.0
+GeliyooBot/1.0beta
+genieBot a
+genieBot b
+Genieo/1.0
+GeonaBot/1.2
+GetRight
+Giant/1.0
+Gigabot/1.0
+Gigabot/3.0
+GingerCrawler/1.0
+Girafabot
+Girafabot b
+Girafabot c
+GlobalMojo
+GnomeVFS
+GNU OS
+GO Browser
+gofind
+GOFORITBOT
+GoldenPod
+GOM Player
+gonzo1
+gonzo/1
+gonzo2
+Google App Engine
+Googlebot/2.1
+Googlebot-Image/1.0
+Googlebot-Mobile
+Googlebot-Mobile/2.1
+Googlebot snippet
+Googlebot-Video/1.0
+Google Earth
+Google Friend Connect
+Google Listen
+Google Rich Snippets Testing Tool
+Google Web Preview
+Google Wireless Transcoder
+gPodder
+Grahambot/0.1
+grapeFX/0.9
+GrapeshotCrawler/2.0
+GreatNews
+GreenBrowser
+Gregarius
+GSiteCrawler
+GStreamer
+GurujiBot/1.0
+Haiku OS
+Hailoobot/1.2
+HatenaScreenshot/1.0 (checker)
+HeartRails_Capture/0.6
+heeii/Nutch-0.9-dev at heeii.com
+heritrix/1.12.1
+heritrix/1.12.1b
+heritrix/1.14.2
+heritrix/1.14.3
+heritrix/1.14.3.r6601
+heritrix/2.0.2
+heritrix/3.0.0
+heritrix/3.1.1
+HiddenMarket-1.0-beta
+Holmes
+holmes/3.10.1 - onet.pl
+holmes/3.11
+holmes/3.11 - onet.pl
+holmes/3.12.4 - morfeo
+holmes/3.9 - onet.pl
+holmes/3.9 - onet.pl b
+HolmesBot
+HomeTags/1.0
+HooWWWer/2.1.3
+HooWWWer/2.2.0
+HostTracker/2.0
+HostTracker.com/1.0
+HotJava
+HP-UX
+ht://Dig
+HTML2JPG
+HTMLayout
+HTMLParser
+HTTP nagios plugin
+HTTP_Request2
+HTTrack
+HuaweiSymantecSpider/1.0
+HubSpot Connect 1.0
+Hv3
+Hydra Browser
+ia_archiver
+ia_archiver alexa
+iaskspider/2.0
+IBrowse
+iCab
+iCatcher!
+ICC-Crawler
+ICC-Crawler/2.0
+IceApe
+ICE browser
+IceCat
+IceDragon
+IceWeasel
+ICF_Site_Crawler
+ichiro/1.0
+ichiro/2.0
+ichiro/2.01
+ichiro/3.0
+ichiro/4.0
+ichiro/5.0
+iCjobs/3.2.3
+IE
+IE Mobile
+IE RSS reader
+iGetter
+iGooMap
+IlseBot/1.1
+IlTrovatore/1.2
+IlTrovatore-Setaccio/1.2
+IlTrovatore-Setaccio/1.2 b
+imbot/0.1
+immediatenet thumbnails
+Indy Library
+Inferno OS
+Influencebot/0.9
+InfociousBot b
+Infohelfer/1.0
+Infohelfer/1.2.0
+Infohelfer/1.3.0
+Infohelfer/1.3.3
+IntegromeDB
+InternetArchive/0.8-dev
+InternetSeer (Web Monitor)
+InternetSurfboard
+iOS
+iOS 4
+iOS 5
+iOS 6
+iOS 7
+Ipselonbot/0.47-beta
+Ipselonbot/1.0-beta
+iRider
+IRIX
+IRLbot/2.0
+IRLbot/2.0 b
+IRLbot/3.0
+IRLbot/3.0 b
+Iron
+iSiloX
+iSiloXC
+IstellaBot/1.01.18
+IstellaBot/1.10.2
+iTunes
+iVideo
+IXR lib
+JadynAve
+JadynAveBot
+Jakarta Commons-HttpClient
+Jambot/0.1.1
+Jamcast
+Jasmine
+Java
+JikeSpider
+JikeSpider b
+JoBo
+Job Roboter Spider 3
+Joli OS
+JS-Kit/Echo
+JUST-CRAWLER
+JVM (Java)
+JVM (Platform Micro Edition)
+Jyxobot
+JyxobotRSS/0.06
+kakle-spider/0.1
+Kalooga
+Kapiko
+Karneval-Bot/1.06
+Kazehakase
+KeywenBot/4.1
+KeywordDensityRobot/0.8
+Kindle Browser
+Kirix Strata
+KKman
+Klondike
+K-Meleon
+K-Ninja
+Kongulo v0.1
+Konqueror
+KRetrieve/1.1
+KrOWLer/0.0.1
+Krugle (Nutch/0.8+)
+Krugle (Nutch/0.8+) b
+ksibot/5.2m
+ksibot/7.0d
+ksibot/8.0a
+Kylo
+LabrinWebCrawler
+LapozzBot/1.4 com
+LapozzBot/1.4 hu
+LapozzBot/1.5
+Larbin/2.6.3
+LBrowser
+LeechCraft
+LemurWebCrawler
+LexxeBot/1.0
+LFTP
+LG Web Browser
+LibSoup
+libwww-perl
+Liferea
+Lijit
+LinguaBot/v0.001-dev
+Linguee Bot
+LinkAider
+LinkbackPlugin for Laconica
+LinkChecker
+linkdexbot
+linkdexbot/2.0
+linkdexbot/2.1
+linkdex.com/v2.0
+LinkExaminer
+Links
+linksmanager_bot
+Link Valet Online 1.1
+Link Valet Online 1.2
+LinkWalker
+LinkWalker/2.0
+Linux
+Linux (Arch Linux)
+Linux (CentOS)
+Linux (Debian)
+Linux (Fedora)
+Linux (Gentoo)
+Linux (Kanotix)
+Linux (Knoppix)
+Linux (Linspire)
+Linux (Maemo)
+Linux (Mageia)
+Linux (Mandriva)
+Linux (Mint)
+Linux (RedHat)
+Linux (Slackware)
+Linux (SUSE)
+Linux (Ubuntu)
+Linux (VectorLinux)
+LiveArea
+livedoor ScreenShot/0.10
+lmspider
+lmspider b
+Lobo
+lolifox
+Lotus Notes
+LuminateBot/1.0
+Lunascape
+L.webis/0.44
+L.webis/0.50
+L.webis/0.51
+L.webis/0.53
+LWP::Simple
+Lynx
+Mac OS
+Madfox
+magpie-crawler/1.1
+MagpieRSS
+Mahiti Crawler-1.0
+Mail.Ru/1.0
+Mail.RU/2.0
+Mail.RU_Bot/2.0
+Mail.RU_Bot/Img/2.0
+Maple browser
+Maxthon
+meanpathbot/1.0
+Mechanize
+Mediapartners-Google
+Megatext-0.5 beta
+Megatext-0.8.1 beta
+MeMoNewsBot/2.0
+MetaGeneratorCrawler/1.1
+MetaHeadersBot
+MetaJobBot
+MetamojiCrawler/1.0
+Metaspinner/0.01
+MetaTagRobot/1.6
+MetaTagRobot/2.1
+MetaURI
+MetaURI API/2.0
+MIA Bot
+MiaDev/0.0.1
+MicroB
+Microsoft Office Existence Discovery
+Microsoft WebDAV client
+Midori
+Mini Browser
+Minimo
+miniRank/1.2
+miniRank/1.5
+miniRank/1.6
+miniRank/2.0
+miniRank/3.1
+MINIX 3 
+Miro
+MJ12bot/v1.2.1
+MJ12bot/v1.2.3
+MJ12bot/v1.2.4
+MJ12bot/v1.2.5
+MJ12bot/v1.3.0
+MJ12bot/v1.3.1
+MJ12bot/v1.3.2
+MJ12bot/v1.3.3
+MJ12bot/v1.4.0
+MJ12bot/v1.4.1
+MJ12bot/v1.4.2
+MJ12bot/v1.4.3
+MJ12bot/v1.4.4
+MLBot
+MLBot b
+MnoGoSearch/3.2.37
+MnoGoSearch/3.3.2
+MnoGoSearch/3.3.6
+MnoGoSearch/3.3.9
+Moatbot/2.2
+moba-crawler
+Mobile Firefox
+Mobile Safari
+MojeekBot/0.2
+MojeekBot/0.2 Relaunch
+MojeekBot/0.5
+MorphOS
+Motoricerca-Robots.txt-Checker/1.0
+Motorola Internet Browser
+Mozdex/0.7.1
+Mozdex/0.7.2
+Mozdex/0.7.2-dev
+Mozilla
+Mozilla/5.0 (compatible; YandexMedia/3.0
+Mp3Bot/0.4
+Mp3Bot/0.7
+MPlayer
+MPlayer2
+MQbot
+MQBOT/Nutch-0.9-dev
+MQBOT/Nutch-0.9-dev b
+MQBOT/Nutch-0.9-dev c
+MSNBot/1.0
+MSNBot/1.1
+MSNBot/2.0b
+MSNBot/2.0b + .
+MSNBot/2.0b + ._
+msnbot-media/1.1
+msnbot-media/2.0b
+msnbot-NewsBlogs/2.0b
+msnbot-UDiscovery/2.0b
+MSN TV (WebTV)
+MSRBOT
+MSRBOT b
+MSRBOT c
+MSRBOT d
+muCommander
+Multi-Browser XP
+MultiCrawler
+Multipage Validator
+MultiZilla
+MyFamilyBot/1.0
+MyFamilyBot/1.0 b
+My Internet Browser
+^Nail
+Najdi.si/3.1
+NaverBot/1.0
+navissobot/1.7
+NCSA Mosaic
+NerdByNature.Bot
+nestReader/0.2
+NetBox
+NetBSD
+NetCaptor
+NetcraftSurveyAgent/1.0
+netEstate NE Crawler
+netEstate RSS crawler
+NetFront
+NetFront Life
+NetFront Mobile Content Viewer
+Netintelligence LiveAssessment
+NetNewsWire
+NetPositive
+Netscape Navigator
+Netseer crawler/2.0
+NetSurf
+Netvibes feed reader
+NetWhatCrawler/0.06-dev
+Newsbeuter
+NewsBreak
+NewsFox
+NewsGatorOnline
+NextGenSearchBot 1
+NextGenSearchBot 1 b
+nextthing.org/1.0
+NFReader
+NG/2.0
+NG-Search/0.90
+NG-Search/0.9.8
+Nigma.ru/3.0
+NimbleCrawler/1.11
+NimbleCrawler/1.12
+NimbleCrawler/1.13
+NimbleCrawler/1.14
+NimbleCrawler/1.15
+NimbleCrawler/2.0.0
+NimbleCrawler/2.0.1
+NimbleCrawler/2.0.2
+NineSky
+Nintendo 3DS
+Nintendo Browser
+Nintendo DS
+Nintendo Wii
+NLNZ_IAHarvester2013
+nodestackbot/0.1
+Nokia SyncML Client
+Nokia Web Browser
+Novell BorderManager
+noyona_0_1
+NPBot/3
+nrsbot/5.0
+nrsbot/6.0
+Nuhk/2.4
+Nuhk/2.4 b
+NuSearch Spider
+NuSearch Spider - b
+Nutch/0.8.2-dev at houxou.com
+Nutch/0.8 at asked.jp
+Nutch/0.8 at houxou.com
+Nutch/0.8-dev at bilgi.com
+Nutch/0.9 at houxou.com
+Nutch/0.9-dev at houxou.com
+Nutch/1.0 at zscho.de
+NutchCSV/0.8-dev
+NutchCSV/0.8-dev at UW
+NutchCSV/0.9
+NutchCVS/0.06-dev
+NutchCVS/0.06-dev at uwaterloo.ca
+NutchCVS/0.7
+NutchCVS/0.7.1
+NutchCVS/0.7.1 at unterreuth.de
+NutchCVS/0.7.1 at UW
+NutchCVS/0.7.1 at washihinton.edu
+NutchCVS/0.7.1 vvdg.org
+NutchCVS/0.7.2
+NutchOSU-VLIB/0.7
+nwormFeedFinder
+Nymesis/2.0
+Obigo
+oBot
+oBot/2.3.1
+oBot/2.3.1 b
+oBot - b
+Ocelli/1.4
+Off By One
+Offline Explorer
+Omea Reader
+OmniExplorer_Bot/4.02
+OmniExplorer_Bot/4.06
+OmniExplorer_Bot/6.47
+OmniWeb
+ONE Browser
+OnetSzukaj/5.0
+OnetSzukaj/5.0 b
+OOZBOT/0.20
+OOZBOT/0.20 b
+OOZBOT/0.20 c
+OpenAcoon v4.1.0
+OpenAcoon v4.10.5
+Openbot/3.0
+OpenBSD
+OpenCalaisSemanticProxy
+OpenindexDeepSpider
+OpenindexShalooowSpider
+OpenindexSpider
+OpenVMS
+Openwave Mobile Browser
+OpenWebSpider v0.1.2.B
+OpenWebSpider v0.1.4
+Opera
+Opera Mini
+Opera Mobile
+Orbiter
+Orca
+Oregano
+OrgbyBot/1.2
+OrgbyBot/1.3
+OS/2
+OS/2 Warp
+OsObot
+OS X
+OS X 10.3 Panther
+OS X 10.4 Tiger
+OS X 10.5 Leopard
+OS X 10.6 Snow Leopard
+OS X 10.7 Lion
+OS X 10.8 Mountain Lion
+OS X 10.9 Mavericks
+Other
+Outlook 2007
+Outlook 2010
+Outlook 2013
+OWB
+ownCloud Server Crawler
+owsBot/0.1
+owsBot/0.2
+P3P Validator
+Page2RSS/0.7
+PageBitesHyperBot/600
+PagePeeker
+PagePeeker/2.1
+page_verifier
+Pale Moon
+Palm OS
+Palm Pre web browser
+Palm WebPro
+Panscient web crawler
+Paparazzi!
+PaperLiBot/2.1
+ParchBot/1.0
+parsijoo
+Patriott
+Pattern
+PClinuxOS
+PDA
+PEAR HTTP_Request
+Peeplo Screenshot Bot/0.20
+Peepowbot/1.0
+peerindex/0.1
+Peew/1.0
+percbotspider
+Personal computer
+PhantomJS
+Phaseout
+Phoenix (old name for Firefox)
+PHP
+PHPcrawl
+PHP link checker
+PHP OpenID library
+pingdom.com_bot 1.4
+Pingdom GIGRIB
+PiplBot
+Pixray-Seeker/1.1
+Pixray-Seeker/2.0
+Plan 9
+Plex Media Center
+Plukkie/1.1
+Plukkie/1.2
+Plukkie/1.3
+Plukkie/1.4
+pmoz.info ODP link checker
+Pocket Tunes
+PocoMail
+Podkicker
+POE-Component-Client-HTTP
+Pogodak.co.yu/3.1
+Polaris
+Polarity
+polixea.de
+Pompos/1.3
+Postbox
+posterus
+PostPost/1.0
+Powermarks
+Prism
+ProCogBot/1.0
+ProCogSEOBot/1.0
+proximic
+PRTG Network Monitor
+psbot/0.1
+PS Vita browser
+ptd-crawler
+Public Radio Player
+Puffin
+PycURL
+Python-requests
+Python-urllib
+Python-webchecker
+Qirina Hurdler v. 1.05 10.11.01
+QNX x86pc
+QQbrowser
+Qseero
+Qseero 1.0.0
+QtWeb
+Qualidator.com Bot 1.0
+Qualidator.com SiteAnalyzer 1.0
+Quantcastbot/1.0
+QuerySeekerSpider
+quickobot-1
+QuickTime
+QupZilla
+R6_CommentReader
+R6_FeedFetcher
+RADaR-Bot
+Radio Downloader
+RankurBot/2.1
+RedBot1.0
+Reeder
+Rekonq
+REL Link Checker Lite
+RestSharp
+retawq
+RISK OS
+Robo Crawler 6.4.5
+Robots_Tester
+Robozilla/1.0
+Roccat browser
+RockMelt
+rogerbot/1.0
+ROME library
+Ronzoobot/1.2
+Ronzoobot/1.3
+Ronzoobot/1.5
+Ronzoobot/1.6
+Rss Bandit
+RSS Menu
+RSSMicro.com RSS/Atom Feed Robot
+RSSOwl
+RSS Popper
+RSS Radio
+RufusBot (Rufus Web Miner)
+Ruky-Roboter/1.06
+Ryouko
+RyzeCrawler/1.1.1
+SaaYaa Explorer
+Safari
+Safari RSS reader
+Sage
+SAI Crawler
+SanszBot/1.7
+SBIder/0.7
+SBIder-0.8.2-dev
+SBIder/0.8dev
+SBIder/1.0
+SBSearch/0.9
+Scarlett/ 1.0
+schibstedsokbot
+ScollSpider
+SCO OpenServer
+Scooter/3.3
+ScoutJet
+ScoutJet old
+Screaming Frog SEO Spider
+ScreenerBot Crawler Beta 2.0
+SeaMonkey
+Search17Bot/1.1
+Search Engine World Robots.txt Validator
+search.KumKie.com
+SearchmetricsBot
+Semager/1.4
+Semager/1.4c
+Semantifire1/0.20
+SEMC Browser
+SemrushBot
+SemrushBot/0.9
+SemrushBot/0.91
+SemrushBot/0.92
+SemrushBot/0.95
+SemrushBot/0.96.2
+SemrushBot/0.96.3
+SemrushBot/0.96.4
+SemrushBot/0.97
+Sensis Web Crawler
+Sensis Web Crawler - b
+SeoCheck
+SeoCheckBot
+SEODat/0.1
+SEOENGBot/1.0
+SEOENGBot/1.2
+SEOENGBot/1.2 new
+SEOENGBot/1.2 old
+SEOkicks-Robot
+SETOOZBOT/0.30
+SETOOZBOT/0.30 a
+SETOOZBOT/0.30 b
+Setoozbot/1.0
+SETOOZBOT/5.0
+SeznamBot/2.0
+SeznamBot/2.0-test
+SeznamBot/3.0
+SeznamBot/3.0-alpha
+SeznamBot/3.0-beta
+SeznamBot/3.0-test
+SeznamBot/3.1-test
+Seznam RSS reader
+Seznam screenshot-generator 2.0
+Seznam WAP Proxy
+SharpReader
+Shelob
+Shiira
+Shim-Crawler
+Shim-Crawler - b
+ShopWiki/1.0
+ShowyouBot
+Shredder
+Siege
+Silk
+silk/1.0
+silk/1.0 -a
+SimplePie
+Sirketcebot/v.01
+sistrix
+Sitedomain-Bot 1.0
+SiteKiosk
+SiteSucker
+SkipStone
+SkreemRBot
+Skyfire
+SkyOS
+Sleipnir
+SlimBoat
+SlimBrowser
+smart.apnoti.com Robot/v1.34
+SmartBrowserPlugin for TC
+Smartphone
+Smart TV
+Snapbot/1.0
+Snapbot/1.0 b
+Snapbot/1.0 c
+Snapbot/1.0 d
+snap.com beta crawler v0
+SnapPreviewBot
+Snappy/1.1
+SniffRSS/0.5beta
+Snoopy
+socialbm_bot
+socialbm_bot/1.0
+Sogou develop spider/4.0
+Sogou Explorer
+sogou spider
+Sogou-Test-Spider/4.0
+Sogou web spider
+Sogou web spider/3.0
+Sogou web spider/4.0
+Sogou web spider/4.0l-2m!
+Solaris
+SolomonoBot/1.04
+Songbird
+Sosospider
+Sosospider/2.0
+Sparrow
+spbot/1.0
+spbot/1.1
+spbot/1.2
+spbot/2.0
+spbot/2.0.1
+spbot/2.0.2
+spbot/2.0.3
+spbot/2.0.4
+spbot/2.1
+spbot/3.0
+spbot/3.1
+spbot/4.0
+spbot/4.0.1
+spbot/4.0a
+spbot/4.0b
+special_archiver/3.1.1
+Speedy Spider
+Speedy Spider Beta/1.2
+Spicebird
+SpiderLing
+Spinn3r 3.1
+Spock Crawler
+SpokeSpider/1.0
+sproose/0.1
+sproose/0.1-alpha
+Sproose/1.0beta
+SrevBot/1.2
+SrevBot/2.0
+SSLBot/1.0
+StackRambler/2.0
+Stainless
+StatoolsBot
+Steeler/3.2
+Steeler/3.3
+Steeler/3.5
+Strokebot
+SubStream
+suggybot/0.01a
+Summer
+Sundance
+Sundial
+Sunrise
+Superbird
+SuperBot
+Surf
+Surphace Scout/4.0
+SurveyBot/2.3
+SWEBot/1.0
+Swiftfox
+Swiftweasel
+SygolBot
+Syllable
+Symbian OS
+SynooBot/0.7.1
+SynooBot/0.7.1 com
+Szukacz/1.5
+Szukacz/1.5 b
+Szukankobot /1.0
+Tablet
+Tagoobot/3.0
+taptubot
+Tear
+TeaShark
+Technoratibot/7.0
+Technoratibot/8.0
+Teleport Pro
+TenFourFox
+TeragramCrawler
+textractor.harvester/h12/1.0
+textractor.harvester/h2/1.0
+textractor.harvester/h24/1.0
+textractor.harvester/h27/1.0
+textractor.harvester/h3/1.0
+textractor.harvester/h34/1.0
+textractor.harvester/h37/1.0
+textractor.harvester/h38/1.0
+textractor.harvester/h39/1.0
+textractor.harvester/h5/1.0
+textractor.harvester/h7/1.0
+textractor.queuekeeper/0.1
+The Bat!
+Theophrastus/2.0
+TheWorld Browser
+Thumbnail.CZ robot 1.1
+ThumbShots-Bot
+thumbshots-de-bot
+thumbshots-de-Bot 1.02
+Thumbshots.ru
+Thunderbird
+TinEye/1.0
+TinEye/1.1
+Tizen 1
+Tizen 2
+Tizen Browser
+Tjusig
+Topicbot/12.0rc-2
+Toread-Crawler/1.1
+Touche
+trendictionbot0.4.2
+trendictionbot0.5.0
+Trileet NewsRoom
+TT Explorer
+Tulip Chain
+TurnitinBot/2.0
+TurnitinBot/2.1
+TutorGigBot
+TwengaBot
+TwengaBot/1.1
+TwengaBot-Discover
+Twiceler-0.9
+Twiceler-0.9 b
+Twikle/1.0
+Typhoeus
+UASlinkChecker/1.0
+Ubuntu Touch
+Ubuntu web browser
+UC Browser
+UltraBrowser 
+uMBot-FC/1.0
+uMBot-LN/1.0
+UnisterBot
+unknown
+UnwindFetchor/1.0
+updated/0.1-alpha
+updated/0.1-beta
+Updownerbot
+UptimeDog
+UptimeRobot/1.0
+URLAppendBot/1.0
+urlfan-bot/1.0
+Urlfilebot/2.2
+urlgrabber
+Usejump
+uZard Web
+Uzbl
+Vagabondo/3.0
+Vagabondo/4.0
+Vagabondo/4.0Beta
+Validator.nu
+Vedma/0.91Beta
+VERASYS 2k
+Vermut
+Vespa Crawler
+VideoSurf_bot
+virus_detector
+Visbot/1.1
+Visbot/2.0
+VLC media player
+VMBot/0.7.2
+VMBot/0.9
+void-bot/0.1
+VoilaBot BETA 1.2
+Vonkeror
+VORTEX/1.2
+voyager/1.0
+voyager/2.0
+Vuze
+VWBot/Nutch-0.9-dev
+W3C Checklink
+W3C CSS Validator
+W3C mobileOK Checker
+W3C Validator
+w3m
+WapTiger
+ WASALive-Bot
+WatchMouse/18990 bc
+WatchMouse/18990 d2.watchmouse.com
+WatchMouse/18990 d3.watchmouse.com
+WatchMouse/18990 gab
+WatchMouse/18990 hk
+WatchMouse/18990 it
+WatchMouse/18990 liz
+WatchMouse/18990 ny
+WatchMouse/18990 se.watchmouse.com
+WatchMouse/18990 uk
+WBSearchBot/1.1
+WDG CSSCheck
+WDG Page Valet
+WDG Validator
+Wearable computer
+WebAlta Crawler/1.3.25
+WebAlta Crawler/1.3.33
+WebAlta Crawler/1.3.34
+WebarooBot (Webaroo Bot)
+WebarooBot (Webaroo Bot) b
+WebCollage
+WebCopier
+webfetch
+webfs
+Webian Shell
+WebImages 0.3
+webinatorbot 1.0
+webmastercoffee/0.7
+WebMiner (Web Miner)
+WebNL
+webOS
+WebRankSpider/1.37
+WebRender
+Webscope Crawler
+Web-sniffer
+Web-sniffer/1.0.31
+WebStripper
+WebThumbnail/3.x
+WebWatch/Robot_txtChecker
+WebZIP
+wectar/Nutch-0.9
+wectar/Nutch-0.9 b
+Weltweitimnetz Browser
+WeSEE:Search/0.1 (Alpha)
+Wget
+Whoismindbot/1.0
+WikioFeedBot 1.0
+wikiwix-bot/3.0
+Willow Internet Crawler 2.1
+WillyBot/1.1
+Winamp for Android
+Windows
+Windows 2000
+Windows 2003 Server
+Windows 3.x
+Windows 7
+Windows 8
+Windows 8.1
+Windows 95
+Windows 98
+Windows CE
+Windows Live Mail
+Windows ME
+Windows Media Player
+Windows Mobile
+Windows NT
+Windows Phone 7
+Windows Phone 8
+Windows RT
+Windows Vista
+Windows XP
+WinHTTP
+WinkBot/0.06
+WinPodder
+WinWap
+WinWebBot/1.0
+WIRE/0.10
+WIRE/0.11
+WIRE/0.11 b
+wKiosk
+WMCAI_robot
+Woko 3.0
+Woko robot 3.0
+WordPress pingback
+woriobot
+WorldWideWeb
+wOSBrowser
+Wotbox/2.0
+Wotbox/2.01
+wsAnalyzer/1.0
+wscheck.com/1.0.0
+www.fi crawler
+WWW::Mechanize
+wwwster/1.4 Beta
+Wyzo
+Xaldon WebSpider
+XBMC
+Xbox patform
+Xenu
+xine
+XmarksFetch/1.0
+XML-RPC for PHP
+XML-RPC for Ruby
+XML Sitemaps Generator 1.0
+XML Sitemaps Generator/1.0
+XMPlay
+XrossMediaBar (XMB)
+X-Smiles
+Yaanb/1.5.001
+Yaanb/1.5.001 b
+yacybot
+YahooCacheSystem
+YahooFeedSeeker
+Yahoo-MMCrawler/4.0
+Yahoo! Site Explorer Feed Validator
+Yahoo! Slurp
+Yahoo! Slurp/3.0
+Yahoo! Slurp China
+Yandex/1.01.001
+YandexAntivirus/2.0
+YandexBlogs/0.99
+YandexBot/3.0
+YandexBot/3.0-MirrorDetector
+Yandex.Browser
+Yandex.Browser mobile
+YandexCatalog/3.0
+YandexDirect/3.0
+YandexFavicons/1.0
+YandexImageResizer/2.0
+YandexImages/3.0
+YandexMedia/3.0
+YandexMetrika/2.0
+YandexNews/3.0
+Yandex.Server/2009.5
+Yandex.Server/2010.9
+YandexSomething/1.0
+YandexVideo/3.0
+YandexWebmaster/2.0
+YandexZakladki/3.0
+Yanga v1.1/beta
+YeahReader
+Yepi/1.0
+Yeti/1.0
+Yeti-FeedItemCrawler/1.0
+YioopBot
+Y!J-BRI/0.0.1
+Y!J-BRJ/YATS
+Y!J-BRO/YFSJ
+Y!J-BRW/1.0
+Y!J-BSC/1.0
+YodaoBot/1.0
+YodaoBot-Image/1.0
+Yoono Bot
+YoudaoBot/1.0
+YowedoBot/1.0
+YRC Weblink
+YRSpider
+ZACATEK_CZ_BOT
+zBrowser
+Zend_Http_Client
+Zeusbot/0.07
+ZipZap
+Zookabot/2.0
+ZookaBot/2.1
+Zookabot/2.2
+Zookabot/2.4
+Zookabot/2.5
+ZoomSpider (ZSEBOT)
+ZumBot/1.0
+ZyBorg/1.0
+ZyBorg/1.0 - b
+ZyBorg/1.0 Dead Link Checker
