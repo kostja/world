@@ -37,14 +37,14 @@ def init_filters():
         filters[name] = open('db/'+k[0]).read().split('\n')
         filters[name].remove('')
         random.shuffle(filters[name])
-        print "    '{0}' - {1}".format(name, len(filters[name]))
+        filters[name] = [filters[name], k[2]]
+        print "    '{0}' - {1}".format(name, len(filters[name][0]))
 
     cap_medians = [k.split(': ') for k in open('db/cap_medians.txt').read().split('\n')]
     cap_medians.remove([''])
-    print cap_medians
     cap_medians = {k[0]: int(k[1]) for k in cap_medians}
 
-    feeds = list(set(sorted(open('db/feeds.txt').read().split('\n'))))
+    feeds = list(set(sorted(open('db/feeds.txt').read().split('\n'))))[:3]
     feeds.remove('')
     return (feeds, filters, cap_medians)
 
@@ -77,10 +77,10 @@ def generate_DB(feeds, filters, emitter):
         sys.stdout.write(str(num + 1) + '. ')
         sys.stdout.flush()
         for _name, _filter in filters.iteritems():
-            a, b = (set(), int(random.uniform(0, len(_filter)))/10)
+            a, b = (set(), int(random.uniform(0, len(_filter[0]))*_filter[1]))
             precision, _try = (b/50, 0)
             while b > precision and _try < 10:
-                a, b = select_list_filters(_filter, b, a)
+                a, b = select_list_filters(_filter[0], b, a)
                 _try += 1
             sys.stdout.write('X')
             sys.stdout.flush()
@@ -90,7 +90,7 @@ def generate_DB(feeds, filters, emitter):
 
 def generate_WL(feeds, filters, number, emitter):
     def select_tuple_filters(_filters):
-        return [v[gauss(len(v))] for k, v in _filters.iteritems()]
+        return [v[0][gauss(len(v[0]))] for k, v in _filters.iteritems()]
 
     print('-' * 30)
     print "Generating Workload"
@@ -107,6 +107,9 @@ def generate_CAP(feeds, caps, emitter):
     print('-' * 30)
     _time = time.clock()
     slist = ['second', 'hour', 'day']
+    print "CAPs:"
+    for _cap in slist:
+        print "    {0} : {1}".format(_cap, caps[_cap])
     for _feed in feeds:
         emitter(_feed, [gauss(2*caps[k]) for k in slist])
     print "Done!"
