@@ -44,7 +44,7 @@ def init_filters():
     cap_medians.remove([''])
     cap_medians = {k[0]: int(k[1]) for k in cap_medians}
 
-    feeds = list(set(sorted(open('db/feeds.txt').read().split('\n'))))[:3]
+    feeds = list(set(sorted(open('db/feeds.txt').read().split('\n'))))
     feeds.remove('')
     return (feeds, filters, cap_medians)
 
