@@ -1,0 +1,7 @@
+data.lua
+wl.lua
+tarantool/*.snap
+tarantool/*.xlog
+tarantool/tarantool_box
+tarantool/tarantool
+tarantool/box.pid

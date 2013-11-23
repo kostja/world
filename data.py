@@ -11,7 +11,7 @@ import datetime
 
 from itertools import imap
 
-output_fname_db = 'db.lua'
+output_fname_db = 'data.lua'
 output_fname_wl = 'wl.lua'
 output_fname_cap = 'cap.lua'
 
@@ -21,11 +21,12 @@ def init_filters():
     random.seed(seed)
 
     filters_dir = [
-        ('cities.txt', 'city'),
-        ('countries.txt', 'country'),
-        ('keywords.txt', 'keyword'),
-        ('referers.txt', 'referer'),
-        ('regions.txt', 'region')
+        ('cities.txt', 'city', 0.1),
+        ('useragents.txt', 'useragent', 0.5),
+        ('countries.txt', 'country', 0.5),
+        ('keywords.txt', 'keyword', 0.5),
+        ('referers.txt', 'referer', 0.2),
+        ('regions.txt', 'region', 0.3)
     ]
 
     print("Filters found: ")
@@ -130,7 +131,7 @@ class Emitter_DB_TNT:
     def __init__(self, fname, sname):
         self.fwl = open(fname, 'w')
         self.sname = sname
-        self.request = "box.insert('{0}', '{1}', '{2}', {3});\n"
+        self.request = "box.space['{0}']:insert('{1}', '{2}', {3});\n"
     def __call__(self, feed, ftype, values):
         for v in values:
             self.fwl.write(self.request.format(self.sname, feed, ftype, repr(v)))
