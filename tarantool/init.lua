@@ -27,13 +27,16 @@ function merge(t1, t2)
 end
 
 function minus(t1, t2)
-    local tmp = t1
-    if t2 ~= nil then
-        for k,v in pairs(t2) do 
-            tmp[k] = nil
+    if t2 == nil then
+        return t1
+    end
+    local res = {}
+    for k,v in pairs(t1) do 
+        if not t2[k]  then
+            res[k] = v 
         end
     end
-    return tmp
+    return res 
 end
 
 all_feeds = field({ box.space['feeds']:select(0) }, 0)
@@ -47,4 +50,10 @@ function feeds(city, keyword, country, region, referer, useragent)
     merge(feeds, field({ bl:select(1, 'referer', referer) }, 0))
     merge(feeds, field({ bl:select(1, 'useragent', useragent) }, 0))
     return minus(all_feeds, feeds)
+end
+
+function bench(wl)
+    for k, v in pairs(wl) do
+        feeds(v:unpack())
+    end
 end
