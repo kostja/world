@@ -142,7 +142,7 @@ class Emitter_WL_TNT:
     def __init__(self, fname, sname):
         self.fwl = open(fname, 'w')
         self.sname = sname
-        self.request = "box.space['{0}']:insert({1})\n"
+        self.request = "box.space['{0}']:auto_increment({1})\n"
     def __call__(self, values):
         self.fwl.write(self.request.format(self.sname, ", ".join(imap(repr, values))))
     def __del__(self):
@@ -154,7 +154,7 @@ if __name__ == '__main__':
     feeds, filters, cap = init_filters()
     print ""
     print "Cycle: {0} sec".format(str(time.clock() - _time))
-    generate_DB(feeds, filters, Emitter_DB_TNT(output_fname_db, 'lists'))
+    generate_DB(feeds, filters, Emitter_DB_TNT(output_fname_db, 'blacklists'))
     generate_WL(feeds, filters, 100000, Emitter_WL_TNT(output_fname_wl, 'workload'))
     generate_CAP(feeds, cap, Emitter_CAP_TNT(output_fname_cap))
     print('-' * 30)
