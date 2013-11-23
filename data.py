@@ -13,7 +13,7 @@ from itertools import imap
 
 output_fname_db = 'db.lua'
 output_fname_wl = 'wl.lua'
-request = "box.insert('lists', '{0}', '{1}', {2});\n"
+output_fname_cap = 'cap.lua'
 
 def init_filters():
     seed = time.mktime((datetime.datetime.now().timetuple()))
@@ -38,9 +38,14 @@ def init_filters():
         random.shuffle(filters[name])
         print "    '{0}' - {1}".format(name, len(filters[name]))
 
-    feeds = sorted(open('db/feeds.txt').read().split('\n'))
+    cap_medians = [k.split(': ') for k in open('db/cap_medians.txt').read().split('\n')]
+    cap_medians.remove([''])
+    print cap_medians
+    cap_medians = {k[0]: int(k[1]) for k in cap_medians}
+
+    feeds = list(set(sorted(open('db/feeds.txt').read().split('\n'))))[:3]
     feeds.remove('')
-    return (feeds, filters)
+    return (feeds, filters, cap_medians)
 
 def gauss(len_list=None):
     while True:
@@ -95,6 +100,32 @@ def generate_WL(feeds, filters, number, emitter):
     print "Done!"
     print "Cycle: {0} sec".format(str(time.clock() - _time))
 
+def generate_CAP(feeds, caps, emitter):
+    print('-' * 30)
+    print "Generating CAP"
+    print('-' * 30)
+    _time = time.clock()
+    slist = ['second', 'hour', 'day']
+    for _feed in feeds:
+        emitter(_feed, [gauss(2*caps[k]) for k in slist])
+    print "Done!"
+    print "Cycle: {0} sec".format(str(time.clock() - _time))
+
+
+class Emitter_CAP_TNT:
+    def __init__(self, fname):
+        self.fwl = open(fname, 'w')
+        self.request_s = "box.insert('feed_search_cap_second', '{0}', box.time(), 0, {1});\n"
+        self.request_h = "box.insert('feed_search_cap_hour', '{0}', box.time(), 0, {1});\n"
+        self.request_d = "box.insert('feed_search_cap_day', '{0}', box.time(), 0, {1});\n"
+    def __call__(self, feed, value):
+        self.fwl.write(self.request_s.format(feed, repr(value[0])))
+        self.fwl.write(self.request_h.format(feed, repr(value[1])))
+        self.fwl.write(self.request_d.format(feed, repr(value[2])))
+    def __del__(self):
+        self.fwl.close()
+
+
 class Emitter_DB_TNT:
     def __init__(self, fname, sname):
         self.fwl = open(fname, 'w')
@@ -119,10 +150,11 @@ class Emitter_WL_TNT:
 if __name__ == '__main__':
     _time = time.clock()
     print('=' * 30)
-    feeds, filters = init_filters()
+    feeds, filters, cap = init_filters()
     print ""
     print "Cycle: {0} sec".format(str(time.clock() - _time))
     generate_DB(feeds, filters, Emitter_DB_TNT(output_fname_db, 'lists'))
     generate_WL(feeds, filters, 100000, Emitter_WL_TNT(output_fname_wl, 'workload'))
+    generate_CAP(feeds, cap, Emitter_CAP_TNT(output_fname_cap))
     print('-' * 30)
     print "Overall time: {0} sec".format(str(time.clock() - _time))
