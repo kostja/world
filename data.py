@@ -21,11 +21,11 @@ def init_filters():
     random.seed(seed)
 
     filters_dir = [
-        ('cities.txt', 'city', 0.1),
+        ('cities.txt', 'city', 0.05),
         ('useragents.txt', 'useragent', 0.5),
         ('countries.txt', 'country', 0.5),
         ('keywords.txt', 'keyword', 0.5),
-        ('referers.txt', 'referer', 0.2),
+        ('referers.txt', 'referer', 0.1),
         ('regions.txt', 'region', 0.3)
     ]
 
@@ -134,7 +134,7 @@ class Emitter_DB_TNT:
     def __init__(self, fname, sname):
         self.fwl = open(fname, 'w')
         self.sname = sname
-        self.request = "box.space['{0}']:insert('{1}', '{2}', {3})\n"
+        self.request = "box.space['{0}']:insert('{2}', {3}, '{1}')\n"
     def __call__(self, feed, ftype, values):
         for v in values:
             self.fwl.write(self.request.format(self.sname, feed, ftype, repr(v)))

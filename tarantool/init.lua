@@ -41,15 +41,41 @@ end
 
 all_feeds = field({ box.space['feeds']:select(0) }, 0)
 
-function feeds(city, keyword, country, region, referer, useragent)
+caps = box.space['caps']
+limit1 = box.space['limit1']
+limit24 = box.space['limit24']
+
+function check_caps(feeds)
+    res = {}
+    for feed, v in pairs(feeds) do
+        cap = caps:select(0, feed)
+        if cap[2] > cap[3] then
+            res[feed] = true
+        end
+    end
+    return res
+end
+
+function update_caps(feeds)
+-- update time
+    for k, v in pairs(feeds) do
+        caps:update(k, "=p+p", 1, box.time(), 2, 1)
+        limit1:update(k, "=p+p", 1, box.time(), 2, 1)
+        limit24:update(k, "=p+p", 1, box.time(), 2, 1)
+    end
+end
+
+function rtb(city, keyword, country, region, referer, useragent)
     local bl = box.space['blacklists']
-    local feeds = field({ bl:select(1, 'city', city) }, 0)
-    merge(feeds, field({ bl:select(1, 'keyword', keyword) }, 0))
-    merge(feeds, field({ bl:select(1, 'country', country) }, 0))
-    merge(feeds, field({ bl:select(1, 'region', region) }, 0))
-    merge(feeds, field({ bl:select(1, 'referer', referer) }, 0))
-    merge(feeds, field({ bl:select(1, 'useragent', useragent) }, 0))
-    return minus(all_feeds, feeds)
+    local feeds = field({ bl:select(0, 'city', city) }, 0)
+    merge(feeds, field({ bl:select(0, 'keyword', keyword) }, 0))
+    merge(feeds, field({ bl:select(0, 'country', country) }, 0))
+    merge(feeds, field({ bl:select(0, 'region', region) }, 0))
+    merge(feeds, field({ bl:select(0, 'referer', referer) }, 0))
+    merge(feeds, field({ bl:select(0, 'useragent', useragent) }, 0))
+    feeds = minus(all_feeds, feeds)
+    feeds = minus(feeds, check_caps(feeds))
+    return update_caps(feeds)
 end
 
 function bench(wl)
