@@ -1,5 +1,6 @@
 data.lua
 wl.lua
+cap.lua
 tarantool/*.snap
 tarantool/*.xlog
 tarantool/tarantool_box
