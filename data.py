@@ -97,7 +97,7 @@ def generate_WL(feeds, filters, number, emitter):
     print('-' * 30)
     _time = time.clock()
     for i in xrange(number):
-        emitter(feeds[gauss(len(feeds))], select_tuple_filters(filters))
+        emitter(select_tuple_filters(filters))
     print "Done!"
     print "Cycle: {0} sec".format(str(time.clock() - _time))
 
@@ -131,7 +131,7 @@ class Emitter_DB_TNT:
     def __init__(self, fname, sname):
         self.fwl = open(fname, 'w')
         self.sname = sname
-        self.request = "box.space['{0}']:insert('{1}', '{2}', {3});\n"
+        self.request = "box.space['{0}']:insert('{1}', '{2}', {3})\n"
     def __call__(self, feed, ftype, values):
         for v in values:
             self.fwl.write(self.request.format(self.sname, feed, ftype, repr(v)))
@@ -142,9 +142,9 @@ class Emitter_WL_TNT:
     def __init__(self, fname, sname):
         self.fwl = open(fname, 'w')
         self.sname = sname
-        self.request = "box.insert('{0}', '{1}', {2});\n"
-    def __call__(self, feed, values):
-        self.fwl.write(self.request.format(self.sname, feed, ", ".join(imap(repr, values))))
+        self.request = "box.space['{0}']:insert({1})\n"
+    def __call__(self, values):
+        self.fwl.write(self.request.format(self.sname, ", ".join(imap(repr, values))))
     def __del__(self):
         self.fwl.close()
 
