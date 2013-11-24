@@ -88,9 +88,11 @@ function reset_caps(space, period)
           "' period "..period)
     box.fiber.name(space.name.." purger")
     local time2 = box.time()
+    local all_caps = {}
+    merge(all_caps, { space:select_range(0, space:len()) }, 0)
     while true do
         local time1 = time2
-        for k,v in pairs(all_feeds) do
+        for k,v in pairs(all_caps) do
             space:update(k, "=p", 1, 0)
         end
         print("Purged "..space.name)

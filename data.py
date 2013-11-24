@@ -112,9 +112,9 @@ def generate_CAP(feeds, caps, emitter):
     for _cap in slist:
         print "    {0} : {1}".format(_cap, caps[_cap])
     for _feed in feeds:
-        emitter('caps', _feed, gauss(2*caps['second'][0])) if random.random() > caps['second'][1] else None
-        emitter('limit1', _feed, gauss(2*caps['hour'][0])) if random.random() > caps['hour'][1] else None
-        emitter('limit24', _feed, gauss(2*caps['day'][0])) if random.random() > caps['day'][1] else None
+        emitter('caps', _feed, gauss(2*caps['second'][0])) if random.random() < caps['second'][1] else None
+        emitter('limit1', _feed, gauss(2*caps['hour'][0])) if random.random() < caps['hour'][1] else None
+        emitter('limit24', _feed, gauss(2*caps['day'][0])) if random.random() < caps['day'][1] else None
     print "Done!"
     print "Cycle: {0} sec".format(str(time.clock() - _time))
 
