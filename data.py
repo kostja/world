@@ -42,7 +42,8 @@ def init_filters():
 
     cap_medians = [k.split(': ') for k in open('db/cap_medians.txt').read().split('\n')]
     cap_medians.remove([''])
-    cap_medians = {k[0]: int(k[1]) for k in cap_medians}
+    cap_medians = [(l[0], l[1].split(', ')) for l in cap_medians]
+    cap_medians = {k[0]: (int(k[1][0]), float(k[1][1])) for k in cap_medians}
 
     feeds = list(set(sorted(open('db/feeds.txt').read().split('\n'))))
     feeds.remove('')
@@ -111,7 +112,9 @@ def generate_CAP(feeds, caps, emitter):
     for _cap in slist:
         print "    {0} : {1}".format(_cap, caps[_cap])
     for _feed in feeds:
-        emitter(_feed, [gauss(2*caps[k]) for k in slist])
+        emitter('caps', _feed, gauss(2*caps['second'][0])) if random.random() > caps['second'][1] else None
+        emitter('limit', _feed, gauss(2*caps['hour'][0])) if random.random() > caps['hour'][1] else None
+        emitter('limit24', _feed, gauss(2*caps['day'][0])) if random.random() > caps['day'][1] else None
     print "Done!"
     print "Cycle: {0} sec".format(str(time.clock() - _time))
 
@@ -119,13 +122,9 @@ def generate_CAP(feeds, caps, emitter):
 class Emitter_CAP_TNT:
     def __init__(self, fname):
         self.fwl = open(fname, 'w')
-        self.request_s = "box.space['caps']:replace('{0}', 0, {1})\n"
-        self.request_h = "box.space['limit1']:replace('{0}', 0, {1});\n"
-        self.request_d = "box.space['limit24']:replace('{0}', 0, {1});\n"
-    def __call__(self, feed, value):
-        self.fwl.write(self.request_s.format(feed, repr(value[0])))
-        self.fwl.write(self.request_h.format(feed, repr(value[1])))
-        self.fwl.write(self.request_d.format(feed, repr(value[2])))
+        self.request = "box.space['{2}']:replace('{0}', 0, {1})\n"
+    def __call__(self, feed, space, value):
+        self.fwl.write(self.request.format(feed, repr(value), space))
     def __del__(self):
         self.fwl.close()
 
