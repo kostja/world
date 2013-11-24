@@ -119,9 +119,9 @@ def generate_CAP(feeds, caps, emitter):
 class Emitter_CAP_TNT:
     def __init__(self, fname):
         self.fwl = open(fname, 'w')
-        self.request_s = "box.space['caps']:insert('{0}', box.time(), 0, {1})\n"
-        self.request_h = "box.space['limit1']:insert('{0}', box.time(), 0, {1});\n"
-        self.request_d = "box.space['limit24']:insert('{0}', box.time(), 0, {1});\n"
+        self.request_s = "box.space['caps']:replace('{0}', 0, {1})\n"
+        self.request_h = "box.space['limit1']:replace('{0}', 0, {1});\n"
+        self.request_d = "box.space['limit24']:replace('{0}', 0, {1});\n"
     def __call__(self, feed, value):
         self.fwl.write(self.request_s.format(feed, repr(value[0])))
         self.fwl.write(self.request_h.format(feed, repr(value[1])))
