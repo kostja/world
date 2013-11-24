@@ -37,6 +37,15 @@ local caps = box.space['caps']
 local limit1 = box.space['limit1']
 local limit24 = box.space['limit24']
 
+has_caps = {}
+merge(has_caps, { caps:select_range(0, caps:len()) }, 0)
+
+has_limit1 = {}
+merge(has_limit1, { limit1:select_range(0, limit24:len()) }, 0)
+
+has_limit24 = {}
+merge(has_limit24, { limit24:select_range(0, limit24:len()) }, 0)
+
 local function check_caps(feeds, caps)
     local res = {}
     local caps_out = {}
@@ -45,26 +54,26 @@ local function check_caps(feeds, caps)
         if cap ~= nil then
             if cap[1] > cap[2] then
                 res[feed] = true 
-            else
-                caps_out[feed] = true
             end
         end
     end
     for feed, v in pairs(res) do
         feeds[feed] = nil
     end
-    return caps_out
 end
 
 local function update_caps(feeds)
--- update time
---    local len = 0
-    for k, v in pairs(feeds) do
-        caps:update(k, "+p", 1, 1)
-        limit1:update(k, "+p", 1, 1)
-        limit24:update(k, "+p", 1, 1)
+    for feed, v in pairs(feeds) do
+        if has_caps[feed] then
+            caps:update(feed, "+p", 1, 1)
+        end
+        if has_limit1[feed] then
+            limit1:update(feed, "+p", 1, 1)
+        end
+        if has_limit24[feed] then
+            limit24:update(feed, "+p", 1, 1)
+        end
     end
- --   print("Updated "..len.." caps.")
 end
 
 function rtb(city, keyword, country, region, referer, useragent)
@@ -129,20 +138,30 @@ function bgstop()
     bgstop1('limit24_purger')
 end
 
-function bench(wl)
-    local time1 = box.time()
+requests = 0
+
+local function bench1(wl, id)
+    box.fiber.name("bench "..id)
     local len = 0
     for k, v in pairs(wl) do
-        len = len + 1
         rtb(unpack(v))
-        if len == 1000 then
-            local time2 = box.time()
-            print("Executed "..len.." requests in "..time2 - time1.." seconds.")
-            len = 0
-            box.fiber.sleep(0)
-            time1 = time2
-        end
+        box.fiber.sleep(0)
+        requests = requests + 1
     end
-    time2 = box.time()
-    return time2 - time1
+end
+
+local function measure()
+    box.fiber.name("RPS measure")
+    while true do
+        local old_requests = requests
+        box.fiber.sleep(1)
+        print("RPS: "..requests - old_requests)
+    end
+end
+
+function bench(fibers)
+    for i = 1,fibers do
+        box.fiber.wrap(bench1, all_tasks, i)
+    end
+    box.fiber.wrap(measure)
 end
