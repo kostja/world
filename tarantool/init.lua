@@ -15,14 +15,11 @@ local function minus(t1, t2)
         return t1
     end
     local res = {}
-    local len = 0
     for k,v in pairs(t1) do 
         if t2[k] == nil then
             res[k] = v
-            len = len + 1
         end
     end
-    print("Found "..len.." feeds")
     return res 
 end
 
@@ -42,26 +39,32 @@ local limit24 = box.space['limit24']
 
 local function check_caps(feeds, caps)
     local res = {}
+    local caps_out = {}
     for feed, v in pairs(feeds) do
         local cap = caps:select(0, feed)
         if cap ~= nil then
-            if cap[1] < cap[2] then
+            if cap[1] > cap[2] then
                 res[feed] = true 
+            else
+                caps_out[feed] = true
             end
         end
     end
     for feed, v in pairs(res) do
         feeds[feed] = nil
     end
+    return caps_out
 end
 
 local function update_caps(feeds)
 -- update time
+--    local len = 0
     for k, v in pairs(feeds) do
         caps:update(k, "+p", 1, 1)
         limit1:update(k, "+p", 1, 1)
         limit24:update(k, "+p", 1, 1)
     end
+ --   print("Updated "..len.." caps.")
 end
 
 function rtb(city, keyword, country, region, referer, useragent)
@@ -125,8 +128,19 @@ function bgstop()
 end
 
 function bench(wl)
+    local time1 = box.time()
+    local len = 0
     for k, v in pairs(wl) do
+        len = len + 1
         rtb(unpack(v))
-        box.fiber.sleep(0)
+        if len == 1000 then
+            local time2 = box.time()
+            print("Executed "..len.." requests in "..time2 - time1.." seconds.")
+            len = 0
+            box.fiber.sleep(0)
+            time1 = time2
+        end
     end
+    time2 = box.time()
+    return time2 - time1
 end

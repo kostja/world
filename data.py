@@ -113,7 +113,7 @@ def generate_CAP(feeds, caps, emitter):
         print "    {0} : {1}".format(_cap, caps[_cap])
     for _feed in feeds:
         emitter('caps', _feed, gauss(2*caps['second'][0])) if random.random() > caps['second'][1] else None
-        emitter('limit', _feed, gauss(2*caps['hour'][0])) if random.random() > caps['hour'][1] else None
+        emitter('limit1', _feed, gauss(2*caps['hour'][0])) if random.random() > caps['hour'][1] else None
         emitter('limit24', _feed, gauss(2*caps['day'][0])) if random.random() > caps['day'][1] else None
     print "Done!"
     print "Cycle: {0} sec".format(str(time.clock() - _time))
@@ -122,7 +122,7 @@ def generate_CAP(feeds, caps, emitter):
 class Emitter_CAP_TNT:
     def __init__(self, fname):
         self.fwl = open(fname, 'w')
-        self.request = "box.space['{2}']:replace('{0}', 0, {1})\n"
+        self.request = "box.space['{0}']:replace('{2}', 0, {1})\n"
     def __call__(self, feed, space, value):
         self.fwl.write(self.request.format(feed, repr(value), space))
     def __del__(self):
@@ -157,7 +157,7 @@ if __name__ == '__main__':
     print ""
     print "Cycle: {0} sec".format(str(time.clock() - _time))
     generate_DB(feeds, filters, Emitter_DB_TNT(output_fname_db, 'blacklists'))
-    generate_WL(feeds, filters, 100000, Emitter_WL_TNT(output_fname_wl, 'workload'))
+    generate_WL(feeds, filters, 2000000, Emitter_WL_TNT(output_fname_wl, 'workload'))
     generate_CAP(feeds, cap, Emitter_CAP_TNT(output_fname_cap))
     print('-' * 30)
     print "Overall time: {0} sec".format(str(time.clock() - _time))
