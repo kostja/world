@@ -1,3 +1,9 @@
+--
+-- Blacklists
+--
+dofile('db.lua')
+dofile('feeds.lua')
+
 local function merge(t1, t2, fieldno)
     for k,v in pairs(t2) do
         t1[v[fieldno]] = true
@@ -9,16 +15,25 @@ local function minus(t1, t2)
         return t1
     end
     local res = {}
+    local len = 0
     for k,v in pairs(t1) do 
         if t2[k] == nil then
             res[k] = v
+            len = len + 1
         end
     end
+    print("Found "..len.." feeds")
     return res 
 end
 
 all_feeds = {}
 merge(all_feeds, { box.space['feeds']:select(0) }, 0)
+
+all_tasks = {}
+
+for v in box.space['workload'].index[0]:iterator(box.index.ALL) do
+    table.insert(all_tasks, {v:slice(1, 7)})
+end
 
 local bl = box.space['blacklists']
 local caps = box.space['caps']
@@ -111,6 +126,7 @@ end
 
 function bench(wl)
     for k, v in pairs(wl) do
-        feeds(v:unpack())
+        rtb(unpack(v))
+        box.fiber.sleep(0)
     end
 end

@@ -23,9 +23,9 @@ def init_filters():
     filters_dir = [
         ('cities.txt', 'city', 0.05),
         ('useragents.txt', 'useragent', 0.5),
-        ('countries.txt', 'country', 0.5),
-        ('keywords.txt', 'keyword', 0.5),
-        ('referers.txt', 'referer', 0.1),
+        ('countries.txt', 'country', 0.7),
+        ('keywords.txt', 'keyword', 0.7),
+        ('referers.txt', 'referer', 0.12),
         ('regions.txt', 'region', 0.3)
     ]
 
