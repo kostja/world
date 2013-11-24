@@ -69,18 +69,18 @@ function reset_caps(space, period)
     print("Starting background cap purger for space '"..space.name..
           "' period "..period)
     box.fiber.name(space.name.." purger")
-    local time1 = box.time()
+    local time2 = box.time()
     while true do
-        local time1 = box.time()
+        local time1 = time2
         for k,v in pairs(all_feeds) do
             space:update(k, "=p", 1, 0)
         end
         print("Purged "..space.name)
-        local time2 = box.time()
+        time2 = box.time()
         local totaltime = time2 - time1
-        time = time2
         if totaltime < period then
             box.fiber.sleep(period - totaltime)
+            time2 = time2 + period - totaltime 
         end
     end
 end
